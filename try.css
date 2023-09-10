@@ -1,0 +1,532 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border: border-box;
+    
+}
+
+html{
+    font-size: 62.5%;
+}
+
+ 
+ 
+ 
+/** navabr 1**/
+.navbar {
+     
+    height: 6rem;
+    background-color:black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; /** evenly spread(equaly distribute)boxes**/
+    
+}
+
+/** box1 **/
+.nav-logo{
+    height: 5rem;
+    width: 10rem;
+}
+.logo{
+    background-image:url("imgg/expert\ logo.jpg");
+    height: 5rem;
+    width: 100%;
+    background-size: cover;
+}
+.border{
+    border:0.2rem solid transparent;
+
+}
+  
+.border:hover{
+    border:0.2rem solid white;
+    cursor: pointer;
+}
+
+/** box2 **/
+.add-first{
+    color: #cccccc;
+    font-size: 1.35rem;
+    margin-left: 2rem;
+}
+.add-second{
+    font-size: 1.6rem;
+    margin-left: .4rem;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+    margin-left: 0.6rem;
+}
+
+
+/** box3 **/
+.nav-search{
+    display: flex;
+    background-color: silver;
+    margin-left: 1rem;
+    width: 63rem;
+    height: 5rem;
+    border-radius: 0.5rem;
+    justify-content: space-evenly; /** space divide evenly**/
+    
+}
+.select-box{
+    background-color: #f3f3f3;
+    width: 5rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    text-align: center;
+    border: none;
+}
+.input-box{
+    width: 100%;
+    font-size: 1.6rem;
+    border: none; /** remove defailt border **/
+}
+.search-icon{
+    width: 4rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.4rem;
+    background-color: rgb(237, 37, 255);
+}
+.search-icon:hover{
+    cursor: pointer;
+    background-color: rgb(80, 93, 70);
+}
+.select-box:hover{
+    cursor: pointer;
+    background-color: bisque;
+}
+.input-box:hover{
+    border: 0.2rem solid orange;
+}
+.sign-in{
+    display: flex;
+}
+
+/** box4 and box5**/
+span{
+    font-size: 1.12rem;
+}
+.psign{
+    font-size: 1.8rem;
+   font-weight: 20rem;
+}
+
+.psign:hover{
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/** box6 **/
+ .nav-cart i{  /**nav cart ka i ke andara ka select kiya bss**/
+    font-size: 3rem;
+ }
+ .nav-cart{
+    font-size: 1.5rem;
+    font-weight: 800;
+
+ }
+
+ /** box7 **/
+/**  .login button{
+    padding: 0.625rem  1.375rem;
+    border-radius: 2.5rem;
+    background-color: #760507c9;
+    color: #ffffff;
+    border: none;} 
+
+
+   .border2{
+        border:0.125rem solid transparent;
+    
+    } 
+      
+   .border2:hover{
+        border:0.125rem  solid white;
+        border-radius: 2.531rem;
+        cursor: pointer;
+    }  **/   
+@media(max-width:1139px){
+   
+    
+    html{
+    font-size: 55%;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .box{
+        width: auto;
+    }
+}
+ 
+@media(max-width:994px){
+    html{
+    font-size: 50%;
+    }
+    .navbar{
+        width: 100%;
+        
+    }
+    .box{
+        width: auto;
+    }
+}
+
+    @media(max-width:869px){
+        html{
+        font-size: 45%;
+        }
+        .navbar{
+            width: 100%;
+        }
+        .box{
+            width: auto;
+        }
+         
+     
+}
+@media(max-width:749px){
+    html{
+    font-size: 40%;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .box{
+        width: auto;
+    }
+    .box1-img{
+        height: 15rem;
+        width: 17rem;
+        background-size:auto;
+        margin-top: 0.6rem;
+        margin-bottom: 0.3rem;
+        border-radius: 0.2rem;
+          
+    }
+     
+ 
+}
+@media(max-width:639px){
+    html{
+    font-size: 35%;
+    }
+    .navbar{
+        width: 100%;
+    } }
+
+    @media(max-width:568px){
+        html{
+        font-size: 25%;
+        }
+        .navbar{
+            width: 100%;
+        } }
+
+        @media(max-width:478px){
+            html{
+            font-size: 20%;
+            }
+            .navbar{
+                width: 100%;
+            } }
+    
+            @media(max-width:324px){
+                html{
+                font-size: 16%;
+                }
+                .navbar{
+                    width: 100%;
+                } }
+    
+
+
+ 
+
+
+ /** background **/
+ .hero-section{
+    background-image: url("imgg/bac1.webp");
+    height: 30rem;
+    background-size:contain;
+    display: flex;    /**   background ko enter lane ke liya**/
+    justify-content: center;  /** it use to center the background*/
+    align-items: flex-end;   /** background ko end lane ke liya**/
+ }
+ .hero-msg{
+    background-color: azure; /** background color **/
+    color: #0f1111;   /** message color **/
+    height: 3.5rem;      /** height of background**/
+    display: flex;    /**  msg ko center lana upper nicha saa**/
+    justify-content: center;  /** it use to center the msg**/
+    align-items: center;   /** it use to center from upper and lower**/
+     
+    font-size: 1.52rem;
+    margin-bottom: 1.5rem; /** text ko nicha lane ke liya **/
+    width: 98%;          /** breadth badane ke liya **/
+    border-radius: 0.2rem;
+    }
+
+    .hero-msg a{
+        color: rgb(136, 4, 59);
+        font-weight: 500;
+        
+    }
+    .hero-msg a:hover{
+        cursor: pointer;
+        color: rgb(255, 123, 0);
+    }
+
+
+
+    .earbuds{
+        background-image: url("imgg/buds1.jpg");
+        height: 30rem;
+        background-size:contain;
+        display: flex;    /**   background ko enter lane ke liya**/
+        justify-content: center;  /** it use to center the background*/
+        align-items: flex-end; } /** background ko end lane ke liya**/
+
+
+          /** shopping section **/
+    .shop-section{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #a1fdeb;
+       
+         
+    }
+    .box{
+        /** border: 2px ; **/
+        display: flex;
+        height: 41.5rem;
+        width: 24%;
+        margin-left: 1rem;
+        margin-top: 0.6rem;
+        
+        background-color: rgb(246, 246, 246); /** inside box color change**/ 
+        padding: 2rem  0rem  1.5rem;  
+    }
+
+    .box1-img{
+        height: 28rem;
+        width: 90%;
+        background-size: cover;
+        margin-top: 1.2rem;
+        margin-bottom: 0.6rem;
+        border-radius: 0.2rem;
+          
+    }
+    .box1-img:hover{
+        border: 0.4rem solid rgb(191, 140, 0);
+        cursor: pointer;
+        width: 26.2rem;
+        height: 28rem;
+        border-radius: .5rem;
+        
+    }
+    .buynow{
+        color: rgb(133, 56, 255);
+    font-size: 2rem;
+        margin-left: 3.5rem;  
+        margin-top: 0.01rem;
+         
+         
+    }
+    .buynow:hover{
+        color: red;
+        cursor: pointer;
+        font-weight: 300;
+    }
+
+    .box-content{
+        margin-left : 1rem;
+    }
+
+    .prooo{
+        display:  flex;
+        font-size: medium;
+
+    }
+    .cut-prc{
+      color: #919191;
+      text-decoration: line-through;
+      margin-left: 0.62rem;  
+      margin-top: 0.15rem;
+      
+    }
+
+    .offer{
+        font-size: 1.6rem;
+        color: #12b985;
+        font-weight: bold;
+        margin-left: 0.62rem;  
+        margin-top: 0.15rem;
+
+    }
+
+    .button-cart{
+        color: #ffffff;
+        margin-top: 1.5rem;
+        width: 24.5rem;
+        height: 3rem;
+        
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    font-size: 1.4rem ;
+    font-weight: 500;
+    background-color: #0f1111;
+    border-radius: 0.8rem ;
+    }
+    
+    
+    
+    .watch{
+        background-image: url("imgg/watch2.png");
+        height: 30rem;
+        background-size:contain;
+        display: flex;    /**   background ko enter lane ke liya**/
+        justify-content: center;  /** it use to center the background*/
+        align-items: flex-end;
+        margin-top: 0.6rem;
+    
+   
+ } 
+
+
+
+.neck{
+    background-image: url("imgg/neck.avif");
+    height: 30rem;
+    background-size:contain;
+    display: flex;    /**   background ko enter lane ke liya**/
+    justify-content: center;  /** it use to center the background*/
+    align-items: flex-end;
+    margin-top: 0.6rem;
+
+
+} 
+
+
+  /** footer section **/
+      
+/** foot panel 2 **/
+.foot-panel2{
+        
+
+    background-color: #222f3d;
+    color: white;
+    height: 30rem;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+
+}
+ul p{
+    margin-top: 1.9rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: .7rem;
+    columns: #dddddd;
+}
+ul a:hover{
+    cursor: pointer;
+    color: rgb(231, 45, 231);
+}
+
+
+  /** foot panel 3 **/
+  .foot-panel3{
+    background-color: #37475a;
+    color: white;
+    height: 6rem;
+    border-top: .1rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logoamo{
+    background-image:url("imgg/expert\ logo.jpg");
+    height: 5rem;
+    width: 10rem;
+    background-size: cover;}
+
+
+    .foot-panel4{
+        
+        background-color: #222f3d;
+        color: #cccccc;
+        height: 8rem;
+    }
+    .pages{
+        font-size: 0.7rem;
+        text-align: center;
+        padding-top: 2.5rem;
+    }
+    .copyright{
+        padding-top: 0.2rem;
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+
+
+
+    /** scroll ka code **/
+    #progress {
+        position: fixed;
+        bottom: 2rem;
+        right: 1rem;
+        height: 7rem;
+        width: 7rem;
+        display: none;
+        place-items: center;
+        border-radius: 50%;
+        box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+      }
+      #progress-value {
+        display: block;
+        height: calc(100% - 1.5rem);
+        width: calc(100% - 1.5rem);
+        background-color: #ffffff;
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+        font-size: 3.5rem;
+        color: #001a2e;
+      }
+
+      html {
+        scroll-behavior: smooth;}
+
+
+
+  
+
+
+
+
+        
+
+
+
+
+
+
+      
